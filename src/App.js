@@ -20,8 +20,6 @@ class App extends Component {
       </React.Fragment>
    
     );
-
-    // return React.createElement('div', {className:'App'}, React.createElement('h1',null,'hey there motha fucka'));
   }
 }
 

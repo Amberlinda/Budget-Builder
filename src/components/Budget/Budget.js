@@ -52,7 +52,6 @@ class Budget extends Component{
             updatedDetails.push(transaction);
             this.setState({details: updatedDetails, formValid: formValid});
             this.budgetChangeHandler(updatedDetails);
-            console.log(updatedDetails);
         }else{
             alert('Please give valid inputs.');
         }   
