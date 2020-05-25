@@ -1,0 +1,33 @@
+.Right,.Wrong{
+    padding: 10px;
+    background-color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.Right{
+    color: green;
+}
+
+.Right:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.Wrong:hover{
+    background-color: red;
+    color: #fff;
+}
+
+
+button:focus{
+    outline: none;
+}
+
+.Wrong{
+    color: red;
+}

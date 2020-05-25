@@ -1,0 +1,14 @@
+.BudgetControl{
+    width: 100%;
+    text-align: center;
+    background-color: #eee;
+    border-bottom: 1px solid #000;
+}
+
+.Submit{
+    font-size: 28px;
+    color: rgb(118, 196, 245);
+    cursor: pointer;
+    transition: transform 0.3s;
+    transform: translateY(8px);
+}

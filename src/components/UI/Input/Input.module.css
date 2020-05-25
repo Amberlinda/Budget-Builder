@@ -1,0 +1,25 @@
+.Select, .Text{
+    padding: 10px;
+    margin: 10px;
+}
+
+.Text{
+    width: 25%;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    border: none;
+}
+.Select{
+    border: none;
+}
+
+.Text:focus{
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.Red{
+    border: 1px solid red;
+    background-color: salmon;
+}
+
